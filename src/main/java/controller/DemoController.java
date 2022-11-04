@@ -11,6 +11,7 @@ public class DemoController {
 
     @GetMapping("/hello")
     public String getHello(){
+        System.out.println("checking jenkins build automation" );
         return "Hello Jenkins";
     }
 
